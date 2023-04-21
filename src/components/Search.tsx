@@ -27,7 +27,7 @@ const Search = (props: SearchParams) => {
       <form className='flex items-center w-full' onSubmit={handleFormSubmit}>
         <input
           type='text'
-          className='bg-transparent outline-none py-0.5 text-black w-full text-sm md:text-base focus:outline-none'
+          className='bg-transparent outline-none py-0.5 text-black w-full text-sm md:text-base touch-manipulation'
           placeholder='Search images'
           ref={inputRef}
         />
